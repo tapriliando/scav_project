@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 2
-names: ['Botol Kaca', 'Kaleng bekas']
+nc: 5
+names: ['aluminum_soda_cans', 'glass_beverage_bottles', 'paper_cups', 'plastic_soda_bottles', 'plastic_water_bottles']
 
 roboflow:
-  workspace: taufiq-solaahuddin
-  project: scavenger.ai
-  version: 1
+  workspace: taufiq-eemcr
+  project: scavenger.ai-1wthp
+  version: 2
   license: Private
-  url: https://app.roboflow.com/taufiq-solaahuddin/scavenger.ai/1
+  url: https://app.roboflow.com/taufiq-eemcr/scavenger.ai-1wthp/2
